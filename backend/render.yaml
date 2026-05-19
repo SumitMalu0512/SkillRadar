@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: skillradar-api
+    env: python
+    region: singapore
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn -w 2 -b 0.0.0.0:$PORT app:app
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
+      - key: FLASK_ENV
+        value: production
+      # Add these via Render dashboard, not here:
+      # DATABASE_URL, ADZUNA_APP_ID, ADZUNA_APP_KEY, RAPIDAPI_KEY,
+      # SUPABASE_URL, SUPABASE_ANON_KEY, SECRET_KEY
