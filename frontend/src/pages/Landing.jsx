@@ -52,7 +52,7 @@ const features = [
 
 const stats = [
   { value: 200, suffix: '+', label: 'Skills Tracked' },
-  { value: '1000+',  suffix: '',  label: 'Jobs Analyzed' },
+  { value: '1000',  suffix: '+',  label: 'Jobs Analyzed' },
   { value: 90,  suffix: 'd', label: 'Forecast Range' },
 ]
 
