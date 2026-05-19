@@ -54,7 +54,6 @@ const stats = [
   { value: 200, suffix: '+', label: 'Skills Tracked' },
   { value: 17,  suffix: '',  label: 'Categories' },
   { value: 90,  suffix: 'd', label: 'Forecast Range' },
-  { value: 3,   suffix: '',  label: 'Data Sources' },
 ]
 
 export default function Landing() {
@@ -184,7 +183,7 @@ export default function Landing() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="glass-card p-6 grid grid-cols-2 md:grid-cols-4 gap-4"
+            className="glass-card p-6 grid grid-cols-3 gap-4"
           >
             {stats.map((s, i) => (
               <div key={s.label} className="text-center">
