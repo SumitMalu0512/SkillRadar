@@ -1,9 +1,6 @@
 # ====================================
 # CRITICAL: Never commit secrets
 # ====================================
-.env
-.env.local
-.env.production
 .env.*.local
 *.env
 !.env.example
@@ -66,7 +63,6 @@ pnpm-debug.log*
 # ====================================
 # IDE & Editor
 # ====================================
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -126,3 +122,4 @@ scratch/
 # ====================================
 uploads/
 backend/uploads/
+config.bat

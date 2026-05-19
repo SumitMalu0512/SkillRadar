@@ -21,7 +21,7 @@ const methodology = [
 const stats = [
   { value: '50+',  label: 'Job Sources' },
   { value: '200+', label: 'Skills Tracked' },
-  { value: '17',   label: 'Skill Categories' },
+  { value: '1000+',   label: 'Jobs Analyzed' },
   { value: '90d',  label: 'Forecast Range' },
 ]
 
